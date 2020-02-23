@@ -23,7 +23,7 @@ class Doctor
   end
   
   def patients
-   appointments.map {|appointment| binding.pry}
+   appointments.map {|patient| binding.pry}
   end
   
   
