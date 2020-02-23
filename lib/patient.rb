@@ -19,7 +19,7 @@ class Patient
   end
   
   def appointments
-    Appointment.
+    Appointment.all.select{|appointment| appointment
   end
   
   def doctors
