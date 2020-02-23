@@ -23,7 +23,8 @@ class Doctor
   end
   
   def patients
-   appointments.map{|patient| patient.name == self}
+    binding.pry
+   appointments.map{|patient| patient.name}
   end
   
   
